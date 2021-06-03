@@ -1,5 +1,5 @@
-#pragma once
+п»ї#pragma once
 /**
-* \brief Пустой класс.
+* \brief РїСѓСЃС‚РѕР№ РєР»Р°СЃСЃ.
 */
 class empty_class {};

@@ -3,17 +3,17 @@
 #include<iostream>
 using namespace std;
 /**
-* \brief  Класс насследник от стандартного исключения.
+* \brief  РљР»Р°СЃСЃ РЅР°СЃСЃР»РµРґРЅРёРє РѕС‚ СЃС‚Р°РЅРґР°СЂС‚РЅРѕРіРѕ РёСЃРєР»СЋС‡РµРЅРёСЏ.
 */
 class successor_class :public invalid_argument {
 public:
 	/**
-	* \brief Конструктор с параметрами.
+	* \brief РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё.
 	*/
 	explicit successor_class(string message);
 
 	/**
-	* \brief деструктор по умолчанию
+	* \brief РґРµСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 	*/
 	~successor_class();
 };

@@ -2,17 +2,17 @@
 #include<string>
 using namespace std;
 /**
-* \brief Независимый класс с полями.
+* \brief РќРµР·Р°РІРёСЃРёРјС‹Р№ РєР»Р°СЃСЃ СЃ РїРѕР»СЏРјРё.
 */
 class independent_class {
 public:
 	string message;
 	/**
-	* \brief Конструктор с параметрами.
+	* \brief РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё.
 	*/
 	explicit independent_class(string message);
 	/**
-	* \brief Деструктор по умолчанию
+	* \brief Р”РµСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 	*/
 	~independent_class();
 };
